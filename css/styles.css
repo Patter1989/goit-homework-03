@@ -1,0 +1,218 @@
+/* font-family: 'Raleway',
+sans-serif; */
+/* =============COMPONENTS============ */
+body { 
+  background-color: #FFFFFF;
+  font-family: 'Roboto', sans-serif;
+  color: #434455;
+}
+:root {
+  --ocean:#404BBF;
+  --iris:#4D5AE5;
+  --navy-blue: #2e2f42;
+  --slate: #434455;
+  --cloud: #F4F4FD;
+  --cornflower: #E7E9FC;
+  
+}
+.list {
+  list-style: none;
+}
+.link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--navy-blue);
+  text-decoration: none;
+}
+.btns {
+  cursor: pointer;
+}
+
+
+/* =============COMPONENTS============ */
+
+/* =============HEADER============ */
+.logo {
+  font-family: 'Raleway',sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  /* ^^^^^^???^^^^^ */
+  color:var(--iris);
+}
+.logo-studio {
+  color: var(--navy-blue);
+}
+.main-nav-list:hover,
+.main-nav-list:focus {
+  color: var(--ocean);
+}
+.contact-us {
+  font-style: normal;
+}
+.contacts {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--slate);
+}
+
+
+/* =============/HEADER============ */
+
+/* =============HERO============ */
+.hero {
+  width: 1440px;
+  height: 600px;
+  background-color: var(--navy-blue);
+}
+.main-header {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  color: #FFFFFF;
+  text-align: center;
+}
+.main-btn {
+  background-color: var(--iris);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  width: 169px;
+  height: 56px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #FFFFFF;
+}
+.main-btn:hover,
+.main-btn:focus {
+  background-color: var(--ocean);
+  color: #FFFFFF;
+}
+
+/* =============/HERO============ */
+
+/* =============FEATURES============ */
+.menu-items-features {
+  width: 264px;
+  height: 104px;
+}
+.menu-items-header {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--navy-blue);
+  }
+.menu-items-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--slate);
+}
+
+/* =============/FEATURES============ */
+
+/* =============WHAT ARE WE DOING============ */
+.projects-header {
+  color: var(--navy-blue);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  }
+
+
+/* =============/WHAT ARE WE DOING============ */
+
+/* =============OUR TEAM============ */
+.team {
+  background-color: var(--cloud);
+  }
+.our-team-header {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+  text-transform: capitalize;
+  color: var(--navy-blue);
+}
+.teammate-name {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--navy-blue);
+}
+.teammate-profession {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--slate);
+}
+/* =============/OUR TEAM============ */
+
+/* =============FOOTER============ */
+.end-page {
+  background-color: var(--navy-blue);
+}
+.footer-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--cornflower);
+}
+/* =============/FOOTER============ */
+
+
+/* +++++++++++++PORTFOLIO+++++++++++++ */
+
+
+/* =============BUTTONS============ */
+.menu-projects-btn {
+  background-color: var(--cloud);
+  border: 1px solid var(--cornflower);
+  border-radius: 4px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--ocean);
+}
+.menu-projects-btn:hover,
+.menu-projects-btn:focus {
+  background-color: var(--ocean);
+  color: #FFFFFF;
+}
+/* =============/BUTTONS============ */
+
+/* =============PROJECT LIST============ */
+.logo-studio-end-page {
+  color: var(--cloud);
+}cloud
+.our-projects-header {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--navy-blue);
+}
+.our-projects-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--slate);
+}
+/* =============/PROJECT LIST============ */
