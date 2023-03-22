@@ -106,6 +106,7 @@ img {
 .main-nav-menu {
   display: flex;
   margin-left: 76px;
+  /* gap: 40px; */
 }
 
 .main-nav-item + .main-nav-item {
@@ -130,6 +131,7 @@ img {
 
 .contacts-list {
   display: flex;
+  /* gap: 40px; */
 }
 
 .contacts {
@@ -156,11 +158,9 @@ background-color: var(--navy-blue);
 }
 
 .block-hero {  
-  
   padding-top: 188px;
   padding-bottom: 188px;
   text-align: center;
-    
 }
 
 .main-header {
@@ -177,7 +177,7 @@ background-color: var(--navy-blue);
 .main-btn {
   margin-left: auto;
   margin-right: auto;
-  width: 169px;
+  min-width: 169px;
   height: 56px;
   margin-top: 48px;
   background-color: var(--iris);
@@ -211,6 +211,7 @@ background-color: var(--navy-blue);
 
 .menu-features {
   display: flex;
+  /* gap: 24px; */
 }
 
 .menu-items-features + .menu-items-features {
@@ -257,6 +258,7 @@ background-color: var(--navy-blue);
 
   .projects-list {
     display: flex;
+    /* gap: 24px; */
   }
 
   .projects-list-items + .projects-list-items {
@@ -290,6 +292,7 @@ background-color: var(--navy-blue);
 
 .our-team-list {
   display: flex;
+  /* gap: 30px; */
 }
 
 .our-team-item + .our-team-item {
@@ -364,6 +367,7 @@ background-color: var(--navy-blue);
   display: flex;
   justify-content: center;
   margin-bottom: 72px;
+  /* gap: 24px; */
 }
 
 .menu-projects-item + .menu-projects-item {
@@ -400,6 +404,8 @@ background-color: var(--navy-blue);
 .our-projects-list {
   display: flex;
   flex-wrap: wrap;
+  /* row-gap: 48px;
+  column-gap: 24px; */
 }
 
 .our-projects-item {
