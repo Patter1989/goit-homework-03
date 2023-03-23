@@ -31,19 +31,6 @@ img {
   --cornflower: #E7E9FC;
 }
 
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-  white-space: nowrap;
-  clip-path: inset(100%);
-  clip: rect(0 0 0 0);
-  overflow: hidden;
-}
-
 .container {
   width: 1158px;
   margin: 0 auto;
@@ -68,6 +55,18 @@ img {
   cursor: pointer;
 }
 
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
 /* =============COMPONENTS============ */
 
 
@@ -106,12 +105,12 @@ img {
 .main-nav-menu {
   display: flex;
   margin-left: 76px;
-  /* gap: 40px; */
+  gap: 40px;
 }
 
-.main-nav-item + .main-nav-item {
+/* .main-nav-item + .main-nav-item {
   margin-left: 40px;
-}
+} */
 
 .main-nav-link{
   display: block;
@@ -131,7 +130,7 @@ img {
 
 .contacts-list {
   display: flex;
-  /* gap: 40px; */
+  gap: 40px;
 }
 
 .contacts {
@@ -142,8 +141,13 @@ img {
   color: var(--slate);
 }
 
-.contacts-item + .contacts-item {
+/* .contacts-item + .contacts-item {
   margin-left: 40px;
+} */
+
+.contacts:hover,
+.contacts:focus {
+  color: var(--ocean);
 }
 
 /* =============/HEADER============ */
@@ -154,12 +158,14 @@ img {
 /* =============HERO============ */
 
 .hero {
-background-color: var(--navy-blue);
+  background-color: var(--navy-blue);
+  padding-top: 188px;
+  padding-bottom: 188px;
 }
 
 .block-hero {  
-  padding-top: 188px;
-  padding-bottom: 188px;
+  
+
   text-align: center;
 }
 
@@ -175,10 +181,11 @@ background-color: var(--navy-blue);
 }
 
 .main-btn {
+  display: block;
   margin-left: auto;
   margin-right: auto;
   min-width: 169px;
-  height: 56px;
+  padding: 16px 32px;
   margin-top: 48px;
   background-color: var(--iris);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -232,6 +239,7 @@ background-color: var(--navy-blue);
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--slate);
+  
 }
 
 /* =============/FEATURES============ */
@@ -292,11 +300,22 @@ background-color: var(--navy-blue);
 
 .our-team-list {
   display: flex;
-  /* gap: 30px; */
+  gap: 30px;
 }
 
-.our-team-item + .our-team-item {
+/* .our-team-item + .our-team-item {
   margin-left: 30px;
+} */
+
+.teammate-text {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.our-team-item {
+  background: #FFFFFF;
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+  border-radius: 0px 0px 4px 4px;
 }
 
 .teammate-name {
@@ -427,6 +446,7 @@ background-color: var(--navy-blue);
   padding-bottom: 32px;
   padding-left: 16px;
   border: 1px solid #E7E9FC;
+  border-top: 0;
 }
 
 .our-projects-header {
